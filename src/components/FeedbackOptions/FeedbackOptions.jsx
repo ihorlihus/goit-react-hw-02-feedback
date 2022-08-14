@@ -9,6 +9,11 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
             key={option}
             type="button"
             onClick={() => onLeaveFeedback(option)}
+            style={{
+              height: '50px',
+              width: '100px',
+              fontSize: 20,
+            }}
           >
             {option}
           </button>
